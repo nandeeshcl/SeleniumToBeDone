@@ -1,4 +1,4 @@
-package practise_java_programs;
+package javaPrograms;
 
 public class SwapStrings {
 
@@ -20,6 +20,8 @@ public class SwapStrings {
 		 */
 
 		// without using temp var
+		
+		
 		System.out.println("Before swapping: " + s1 + " " + s2);
 
 		s1=s1+s2;

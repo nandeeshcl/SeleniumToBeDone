@@ -6,9 +6,8 @@ public class EvenAndOddNumInArray {
 	public static void main(String[] args) {
 
 		int a[] = { 21, 31, 44, 55, 6 };
-
-		int even[] = null;
-		int odd[] = null;
+		int evenCount=0;
+		int oddCount=0;
 
 		/*
 		 * for(int i=0;i<a.length;i++) { if((a[i]%2)==0) {
@@ -22,18 +21,22 @@ public class EvenAndOddNumInArray {
 
 			if ((a[i] % 2) == 0) {
 				System.out.println(a[i]);
+				evenCount++;
 			}
 
 		}
+		System.out.println("Total even numbers are: "+evenCount);
 
 		System.out.println("Odd numbers:");
 		for (int i = 0; i < a.length; i++) {
 
 			if ((a[i] % 2) != 0) {
 				System.out.println(a[i]);
+				oddCount++;
 			}
 
 		}
+		System.out.println("Total odd numbers are: "+oddCount);
 
 	}
 

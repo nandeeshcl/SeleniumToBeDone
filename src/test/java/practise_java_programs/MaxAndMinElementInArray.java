@@ -9,11 +9,19 @@ int array[]={10,100,20,50,5,60};
 		//Max value in array
 		int max = array[0];
 
-		for (int i = 1; i < array.length; i++) {
+		/*for (int i = 1; i < array.length; i++) {
 		    if (array[i] > max) 
 		    {
 		      max = array[i];
 		    }
+		}*/
+		
+		for(int i:array)
+		{
+			if(i>max)
+			{
+				max = i;
+			}
 		}
 		
 		System.out.println("Max Element in array:" +max);
